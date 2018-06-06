@@ -1,0 +1,64 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSLevelIndicator;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = mainhid;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mController = midicontroller;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                rxCCchanged = id;
+                ryCCchanged = id;
+                rzCCchanged = id;
+                txCCchanged = id;
+                tyCCchanged = id;
+                tzCCchanged = id;
+            };
+            CLASS = midicontroller;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                channel = id;
+                hid = mainhid;
+                rxCC = id;
+                rxMode = id;
+                rxSens = id;
+                rxValue = id;
+                ryCC = id;
+                ryMode = id;
+                rySens = id;
+                ryValue = id;
+                rzCC = id;
+                rzMode = id;
+                rzSens = id;
+                rzvalue = id;
+                txCC = id;
+                txMode = id;
+                txSens = id;
+                txValue = id;
+                tyCC = id;
+                tyMode = id;
+                tySens = id;
+                tyValue = id;
+                tzCC = id;
+                tzMode = id;
+                tzSens = id;
+                tzValue = id;
+            };
+            SUPERCLASS = NSObject;
+        }
+    );
+    IBVersion = 1;
+}

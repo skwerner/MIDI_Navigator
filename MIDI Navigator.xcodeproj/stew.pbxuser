@@ -1,0 +1,83 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 6BBEC46E0C1961860089C5CF /* MIDI Navigator */;
+		activeTarget = 8D1107260486CEB800E47090 /* MIDI Navigator */;
+		codeSenseManager = 6BBEC48B0C19618D0089C5CF /* Code sense */;
+		executables = (
+			6BBEC46E0C1961860089C5CF /* MIDI Navigator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 202989958;
+			PBXWorkspaceStateSaveDate = 202989958;
+		};
+		sourceControlManager = 6BBEC48A0C19618D0089C5CF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6BBEC46E0C1961860089C5CF /* MIDI Navigator */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "MIDI Navigator";
+		sourceDirectories = (
+		);
+	};
+	6BBEC48A0C19618D0089C5CF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	6BBEC48B0C19618D0089C5CF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D1107260486CEB800E47090 /* MIDI Navigator */ = {
+		activeExec = 0;
+		executables = (
+			6BBEC46E0C1961860089C5CF /* MIDI Navigator */,
+		);
+	};
+}
